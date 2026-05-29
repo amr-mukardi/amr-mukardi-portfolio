@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="favGrad" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#6C5CE7"/>
+      <stop offset="100%" stop-color="#06D6A0"/>
+    </linearGradient>
+  </defs>
+  <!-- خلفية دائرية -->
+  <circle cx="32" cy="32" r="32" fill="url(#favGrad)"/>
+
+  <!-- حرف A أبيض (في الخلف) -->
+  <path d="M30 10 L48 48 L40 48 L32 28 L24 48 L16 48 Z" fill="#FFFFFF"/>
+
+  <!-- حرف M بنفسجي (في الأمام) -->
+  <path d="M10 48 L10 32 L24 18 L32 28 L40 18 L54 32 L54 48 L40 34 L32 42 L24 34 Z" fill="#6C5CE7"/>
+
+  <!-- إشارة </> بالأخضر -->
+  <text x="32" y="58" text-anchor="middle" fill="#06D6A0" font-family="monospace" font-size="10" font-weight="bold">&lt;/&gt;</text>
+</svg>

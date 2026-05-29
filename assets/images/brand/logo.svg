@@ -1,0 +1,45 @@
+<svg width="900" height="900" viewBox="0 0 900 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- تدرج الخلفية -->
+    <linearGradient id="bgGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#020617" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+    <!-- تأثير التوهج (للتطبيق إذا أردت، لكن الشعار نفسه صلب بدون توهج) -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="10" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- الخلفية -->
+  <rect width="900" height="900" rx="70" fill="url(#bgGradient)" />
+  
+  <!-- خطوط زخرفية -->
+  <g opacity="0.05">
+    <path d="M150 0L0 900" stroke="white" stroke-width="2" />
+    <path d="M260 0L110 900" stroke="white" stroke-width="2" />
+    <path d="M370 0L220 900" stroke="white" stroke-width="2" />
+    <path d="M480 0L330 900" stroke="white" stroke-width="2" />
+    <path d="M590 0L440 900" stroke="white" stroke-width="2" />
+    <path d="M700 0L550 900" stroke="white" stroke-width="2" />
+  </g>
+  
+  <!-- الشعار -->
+  <g transform="translate(140 140)">
+    <!-- حرف A أبيض صلب -->
+    <path d="M310 40 L520 430 H420 L310 220 L200 430 H100 Z" fill="#FFFFFF" />
+    
+    <!-- حرف M بنفسجي صلب -->
+    <path d="M70 430 L70 350 L200 200 L310 320 L420 200 L550 350 L550 430 L420 280 L310 390 L200 280 Z" fill="#6C5CE7" />
+  </g>
+  
+  <!-- الاسم -->
+  <text x="450" y="700" text-anchor="middle" fill="white" font-size="62" font-family="Poppins, Arial, sans-serif" font-weight="800" letter-spacing="4">AMR AL-MUKARDI</text>
+  
+  <!-- التخصص -->
+  <text x="450" y="760" text-anchor="middle" fill="#6C5CE7" font-size="26" font-family="Poppins, Arial, sans-serif" font-weight="600" letter-spacing="12">DIGITAL ARCHITECT</text>
+</svg>

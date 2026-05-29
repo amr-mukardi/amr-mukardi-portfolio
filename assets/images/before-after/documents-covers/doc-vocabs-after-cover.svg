@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <defs>
+    <linearGradient id="bgVocabAfter" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#141C2B" />
+      <stop offset="100%" style="stop-color:#1E293B" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" rx="20" fill="url(#bgVocabAfter)" />
+  <!-- أيقونة ورقة مفردات ثنائية اللغة بتصميم جميل -->
+  <g transform="translate(300,160)" fill="none" stroke="#06D6A0" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="-40" y="-30" width="80" height="60" rx="4" fill="#06D6A0" fill-opacity="0.1" />
+    <line x1="-30" y1="-8" x2="30" y2="-8" stroke="#06D6A0" stroke-width="1.5" opacity="0.4" />
+    <text x="-28" y="-2" fill="#FFFFFF" font-family="monospace" font-size="12" stroke="none">apple</text>
+    <text x="8" y="-2" fill="#06D6A0" font-family="sans-serif" font-size="12" stroke="none">تفاحة</text>
+    <text x="-28" y="14" fill="#FFFFFF" font-family="monospace" font-size="12" stroke="none">house</text>
+    <text x="8" y="14" fill="#06D6A0" font-family="sans-serif" font-size="12" stroke="none">منزل</text>
+    <text x="-28" y="30" fill="#FFFFFF" font-family="monospace" font-size="12" stroke="none">book</text>
+    <text x="8" y="30" fill="#06D6A0" font-family="sans-serif" font-size="12" stroke="none">كتاب</text>
+  </g>
+  <text x="300" y="280" text-anchor="middle" fill="#F5F7FA" font-family="Arial, sans-serif" font-size="24" font-weight="bold">Vocabulary Sheet</text>
+  <text x="300" y="315" text-anchor="middle" fill="#06D6A0" font-family="Arial, sans-serif" font-size="18" opacity="0.9">After Translation &amp; Redesign</text>
+</svg>

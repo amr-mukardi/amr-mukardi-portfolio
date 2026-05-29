@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <defs>
+    <linearGradient id="g6" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F7971E" />
+      <stop offset="100%" style="stop-color:#FFD200" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" rx="20" fill="url(#g6)" />
+  <!-- أيقونة عرض مع مخطط دائري -->
+  <g transform="translate(300,170)" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="-35" y="-30" width="70" height="50" rx="4" fill="#fff" fill-opacity="0.2" />
+    <circle cx="10" cy="-5" r="15" fill="none" stroke="#fff" stroke-width="3" opacity="0.8" />
+    <path d="M10,-5 L10,-20 A15,15 0 0,1 24,0" fill="none" stroke="#fff" stroke-width="3" opacity="0.8" />
+    <path d="M0,20 L0,30 M-15,30 L15,30" stroke="#fff" stroke-width="3" opacity="0.6" />
+  </g>
+  <text x="300" y="280" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="28" font-weight="bold">Reactive Presentation 2</text>
+  <text x="300" y="315" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="16" opacity="0.9">Data-Driven Slides</text>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <defs>
+    <linearGradient id="g8" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FC466B" />
+      <stop offset="100%" style="stop-color:#3F5EFB" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" rx="20" fill="url(#g8)" />
+  <!-- أيقونة خريطة ذهنية (عقد متصلة) -->
+  <g transform="translate(300,170)" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="0" cy="0" r="12" fill="#fff" fill-opacity="0.4" stroke="none" />
+    <line x1="12" y1="0" x2="40" y2="-20" stroke="#fff" opacity="0.6" />
+    <circle cx="40" cy="-20" r="7" fill="#fff" fill-opacity="0.4" stroke="none" />
+    <line x1="12" y1="0" x2="45" y2="15" stroke="#fff" opacity="0.6" />
+    <circle cx="45" cy="15" r="7" fill="#fff" fill-opacity="0.4" stroke="none" />
+    <line x1="12" y1="0" x2="-30" y2="-25" stroke="#fff" opacity="0.6" />
+    <circle cx="-30" cy="-25" r="7" fill="#fff" fill-opacity="0.4" stroke="none" />
+    <line x1="12" y1="0" x2="-35" y2="20" stroke="#fff" opacity="0.6" />
+    <circle cx="-35" cy="20" r="7" fill="#fff" fill-opacity="0.4" stroke="none" />
+  </g>
+  <text x="300" y="280" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="28" font-weight="bold">Mind Map</text>
+  <text x="300" y="315" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="16" opacity="0.9">Responsive Marketing Tool</text>
+</svg>

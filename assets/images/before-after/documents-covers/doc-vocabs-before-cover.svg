@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <defs>
+    <linearGradient id="bgVocabBefore" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1E1B2E" />
+      <stop offset="100%" style="stop-color:#2D2A3A" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" rx="20" fill="url(#bgVocabBefore)" />
+  <!-- أيقونة ورقة مفردات إنجليزية مملة -->
+  <g transform="translate(300,160)" fill="none" stroke="#94A3B8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="-35" y="-30" width="70" height="60" rx="4" fill="#ffffff" fill-opacity="0.05" />
+    <text x="-22" y="-10" fill="#94A3B8" font-family="monospace" font-size="12" stroke="none">apple</text>
+    <text x="-22" y="8" fill="#94A3B8" font-family="monospace" font-size="12" stroke="none" opacity="0.6">house</text>
+    <text x="-22" y="26" fill="#94A3B8" font-family="monospace" font-size="12" stroke="none" opacity="0.4">book</text>
+  </g>
+  <text x="300" y="280" text-anchor="middle" fill="#94A3B8" font-family="Arial, sans-serif" font-size="24" font-weight="bold">Vocabulary Sheet</text>
+  <text x="300" y="315" text-anchor="middle" fill="#EF4444" font-family="Arial, sans-serif" font-size="18" opacity="0.9">Before Translation &amp; Design</text>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B5E3C" />
+      <stop offset="100%" style="stop-color:#C49A6C" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" rx="20" fill="url(#g1)" />
+  <!-- أيقونة زجاجة عطر -->
+  <g transform="translate(300,170)" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="-15" y="10" width="30" height="40" rx="5" fill="#fff" fill-opacity="0.2" />
+    <rect x="-8" y="-5" width="16" height="15" rx="3" fill="#fff" fill-opacity="0.3" />
+    <circle cx="0" cy="-20" r="8" fill="#fff" fill-opacity="0.4" />
+  </g>
+  <text x="300" y="280" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="36" font-weight="bold">Nura</text>
+  <text x="300" y="320" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="16" opacity="0.9">Feminine Perfume Brand</text>
+</svg>
