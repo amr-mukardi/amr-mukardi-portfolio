@@ -77,25 +77,7 @@ I hold **20+ certificates** in digital marketing, graphic design, freelancing, c
 - 📧 **Email:** [amralmukardi@gmail.com](mailto:amralmukardi@gmail.com)
 - 💼 **LinkedIn:** [linkedin.com/in/amr-mukardi](https://www.linkedin.com/in/amr-mukardi)
 - 💻 **GitHub:** [github.com/amr-mukardi](https://github.com/amr-mukardi)
-
----
-
-## 📂 Project Structure
-amr-mukardi-portfolio/
-├── index.html                # Main single-page portfolio (HTML, CSS, JS)
-├── README.md
-└── assets/
-    ├── images/
-    │   ├── brand/            # Logo, favicon, profile, OG image
-    │   ├── projects-covers/  # SVG covers for the 8 projects
-    │   └── before-after/     # Real before/after images + cover SVGs
-    ├── downloads/
-    │   └── certificates/     # PDF certificates
-    └── icons/    # SVG icons (WhatsApp, GitHub, LinkedIn, Email)
-    
-    
----
-
+  
 ## 🌟 Why This Portfolio?
 
 - 🧬 **100% Handcrafted** – No templates, just pure HTML, CSS, and JavaScript.
