@@ -1,55 +1,207 @@
-# ✨ Personal Portfolio
+# 💎 Amr AL-Mukardi Portfolio
 
-A sleek, responsive, and fully bilingual one-page personal portfolio designed to elegantly showcase professional projects, documents, and services. 
+<div align="center">
 
-## 🌟 Features
+![Logo](/assets/images/brand/logo.svg)
 
-*   **Bilingual Experience:** Seamless toggling between English and Arabic, providing an inclusive and accessible experience for a diverse audience.
-*   **Responsive Layout:** Fully optimized to ensure a flawless visual presentation across all devices—from mobile screens to large desktop monitors.
-*   **Modern Aesthetics:** Crafted with clean typography, well-structured layouts, and precise spacing to highlight professional services and design work.
-*   **Lightweight & Fast:** Built with efficient, utility-first classes for optimal performance and rapid loading times.
+# Amr AL-Mukardi
+### Front-End Developer • UI/UX Designer • Educator
 
-## 🛠️ Technologies Used
+**Turning Ideas Into Digital Experiences**
 
-*   **HTML5:** For semantic and accessible content structuring.
-*   **Tailwind CSS:** For rapid, precise styling and robust responsive design implementation.
-*   **JavaScript:** For handling dynamic DOM interactions, specifically the English/Arabic language toggle functionality.
-*   **Git:** For structured version control and repository management.
+🌐 Bilingual Portfolio (Arabic / English)
 
-## 🚀 Getting Started
+</div>
 
-To explore or modify this project locally, follow these straightforward steps:
+---
 
-### Prerequisites
+## 📖 Overview
 
-Ensure you have [Git](https://git-scm.com/) installed on your local machine.
+A premium personal portfolio website designed to showcase my work, skills, certifications, and professional experience as a **Front-End Developer**.
 
-### Installation
+The website combines modern UI/UX principles, smooth animations, responsive layouts, bilingual support, and high performance to deliver an agency-level digital experience.
 
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/your-username/your-portfolio-repo.git](https://github.com/your-username/your-portfolio-repo.git)
-    ```
-2.  **Navigate to the project directory:**
-    ```bash
-    cd your-portfolio-repo
-    ```
-3.  **Launch the application:**
-    Open the `index.html` file in your preferred web browser to view the portfolio.
+---
 
-## 📂 Project Structure
+## ✨ Features
+
+- 🌍 Arabic & English support
+- 🌙 Dark / Light Mode
+- 📱 Fully Responsive Design
+- ⚡ Fast Performance
+- 🎨 Premium UI/UX
+- ✨ Smooth Animations
+- ⌨️ Typewriter Effect
+- 🎯 Scroll Reveal Animations
+- 📊 Animated Statistics
+- 🧩 Dynamic Project Gallery
+- 🎓 Education & Certificates
+- 💼 Professional Experience Timeline
+- 💬 Testimonials Section
+- 📬 Contact Form (Web3Forms)
+- 🔗 GitHub & LinkedIn Integration
+- 🎈 Interactive Background Particles
+- 📈 Scroll Progress Indicator
+- ⬆️ Back-to-Top Button
+
+---
+
+# 🛠️ Tech Stack
+
+### Front-End
+
+- HTML5
+- CSS3
+- Tailwind CSS
+- JavaScript (ES6+)
+
+### Libraries
+
+- Lucide Icons
+- Google Fonts
+- Web3Forms
+
+### Design
+
+- Responsive Design
+- Glassmorphism
+- Modern Gradients
+- Motion Design
+- Micro Interactions
+
+---
+
+# 📂 Project Structure
 
 ```text
-├── index.html        # Core HTML document containing both English and Arabic content
-├── css/
-│   └── output.css    # Compiled Tailwind CSS stylesheet
-├── js/
-│   └── script.js     # JavaScript for language toggling and interactive elements
-├── assets/           # Images, icons, and downloadable portfolio documents
-└── README.md         # Project documentation
-
+My Portfolio/
+│
+├── index.html
+│
+├── assets/
+│   ├── images/
+│   │   ├── brand/
+│   │   ├── projects-covers/
+│   │   └── ...
+│   │
+│   ├── downloads/
+│   │   └── certificates/
+│   │
+│   ├── 
+│   ├── 
+│   
+│
+└── README.md
 ```
-## 🤝 Contributing
-Contributions, constructive feedback, and feature requests are always welcome. Feel free to check the issues page to get involved.
-## 📝 License
-This project is open-source and available under the MIT License.
+
+---
+
+# 📑 Website Sections
+
+- Hero
+- About
+- Projects
+- Skills
+- Experience
+- Education
+- Certificates
+- Testimonials
+- Contact
+- Footer
+
+---
+
+# 🚀 Projects Included
+
+- Lumière Restaurant
+- Digital Resume
+- Sarah Portfolio
+- Business Dashboard
+- Ufuq Presentation
+- Careem Case Study
+- Interactive Learning Experience
+- Bilingual Interactive Lesson
+- Coming Soon Page
+- Survey System
+
+---
+
+# 🎓 Certificates
+
+- Advanced English Diploma
+- Accounting Basics
+- AI for Juniors
+- Customer Service
+- Cyber Security Basics
+- Digital Advertising
+- Digital Marketing
+- Emotional Intelligence
+- Freelancing Basics
+- Getting Started on Khamsat
+- Getting Started on Upwork
+- Internet of Things
+- Introduction to Graphic Design
+
+---
+
+# 💼 Services
+
+- Front-End Development
+- Landing Pages
+- Portfolio Websites
+- Dashboard Development
+- UI/UX Design
+- Presentation Design
+- Interactive Educational Experiences
+- Professional Document Design
+- CV Design
+- Report Design
+
+---
+
+# 📱 Responsive
+
+Optimized for:
+
+- Mobile
+- Tablet
+- Laptop
+- Desktop
+- Ultra-wide Displays
+
+---
+
+# ⚙️ Performance
+
+- Responsive Layout
+- Lazy Loading
+- Optimized Assets
+- Smooth Scrolling
+- Lightweight Components
+- Semantic HTML
+- SEO Friendly
+
+---
+
+# 🌍 Languages
+
+- 🇸🇦 العربية
+- 🇬🇧 English
+
+---
+
+# 📧 Contact
+
+**Amr AL-Mukardi**
+
+- GitHub: https://github.com/amr-mukardi
+- LinkedIn: https://linkedin.com/in/amr-mukardi
+- Email: amralmukardi@gmail.com
+
+---
+
+# 📄 License
+
+This project is intended for personal portfolio use.
+
+© 2026 Amr AL-Mukardi. All Rights Reserved.
