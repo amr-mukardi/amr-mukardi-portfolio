@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="70%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#13131a"/>
+      <stop offset="100%" stop-color="#0a0a0f"/>
+    </radialGradient>
+
+    <!-- Primary Brand Gradient (Purple to Cyan) -->
+    <linearGradient id="brandGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7c5cfc"/>
+      <stop offset="50%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#4ec9b0"/>
+    </linearGradient>
+
+    <!-- Accent Glow Gradient -->
+    <linearGradient id="accentGrad" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4ec9b0"/>
+      <stop offset="100%" stop-color="#7c5cfc"/>
+    </linearGradient>
+
+    <!-- Metallic/Glossy Reflection -->
+    <linearGradient id="glossGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.25"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.0"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.05"/>
+    </linearGradient>
+
+    <!-- Drop Shadows for Depth -->
+    <filter id="neonGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="16" result="blur1"/>
+      <feGaussianBlur in="SourceGraphic" stdDeviation="32" result="blur2"/>
+      <feMerge>
+        <feMergeNode in="blur2"/>
+        <feMergeNode in="blur1"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="dropShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="15" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+
+  <!-- Deep Background -->
+  <rect width="800" height="800" rx="160" fill="url(#bgGrad)"/>
+
+  <!-- Ambient Glow Background Circles -->
+  <circle cx="400" cy="360" r="180" fill="#7c5cfc" opacity="0.12" filter="url(#neonGlow)"/>
+  <circle cx="400" cy="360" r="120" fill="#4ec9b0" opacity="0.1" filter="url(#neonGlow)"/>
+
+  <!-- Geometric Studio Frame / Outer Hex / Shield Ring -->
+  <g filter="url(#dropShadow)">
+    <polygon points="400,130 610,251 610,493 400,614 190,493 190,251" 
+             fill="none" 
+             stroke="url(#brandGrad)" 
+             stroke-width="3" 
+             opacity="0.35" 
+             stroke-dasharray="12 6"/>
+  </g>
+
+  <!-- Main Monogram "AM" Construction -->
+  <g filter="url(#dropShadow)">
+    <!-- Outer Shield / Hexagonal Monogram Base -->
+    <polygon points="400,160 580,264 580,472 400,576 220,472 220,264" 
+             fill="#13131a" 
+             stroke="url(#brandGrad)" 
+             stroke-width="6"/>
+
+    <!-- Geometric Inner Facets for 3D Studio Look -->
+    <polygon points="400,160 400,368 580,472" fill="#7c5cfc" opacity="0.08"/>
+    <polygon points="400,160 400,368 220,472" fill="#4ec9b0" opacity="0.08"/>
+
+    <!-- Letter A Path -->
+    <path d="M 310,465 L 400,245 L 490,465 H 440 L 400,360 L 360,465 Z" 
+          fill="url(#brandGrad)"/>
+    
+    <!-- Letter M Integrated & Intersecting -->
+    <path d="M 310,465 L 355,300 L 400,390 L 445,300 L 490,465 H 455 L 400,345 L 345,465 Z" 
+          fill="url(#accentGrad)" 
+          opacity="0.85"/>
+
+    <!-- Overlapping Glossy Sheen Overlay -->
+    <polygon points="400,160 580,264 400,368 220,264" fill="url(#glossGrad)"/>
+  </g>
+
+  <!-- Floating Tech Accent Nodes -->
+  <circle cx="400" cy="160" r="6" fill="#4ec9b0" filter="url(#neonGlow)"/>
+  <circle cx="580" cy="264" r="5" fill="#7c5cfc" filter="url(#neonGlow)"/>
+  <circle cx="220" cy="264" r="5" fill="#7c5cfc" filter="url(#neonGlow)"/>
+  <circle cx="580" cy="472" r="4" fill="#4ec9b0"/>
+  <circle cx="220" cy="472" r="4" fill="#4ec9b0"/>
+  <circle cx="400" cy="576" r="6" fill="#7c5cfc" filter="url(#neonGlow)"/>
+
+  <!-- Typography Section -->
+  <g transform="translate(400, 660)" text-anchor="middle">
+    <!-- Main Name -->
+    <text y="0" 
+          font-family="'Outfit', 'Cairo', sans-serif" 
+          font-weight="800" 
+          font-size="34" 
+          letter-spacing="4" 
+          fill="#ffffff" 
+          filter="url(#dropShadow)">AMR AL-MUKARDI</text>
+    
+    <!-- Subtitle / Title -->
+    <text y="36" 
+          font-family="'Outfit', 'Cairo', sans-serif" 
+          font-weight="500" 
+          font-size="14" 
+          letter-spacing="6" 
+          fill="#4ec9b0" 
+          opacity="0.9">FRONT-END ENGINEER &amp; DESIGNER</text>
+  </g>
+
+  <!-- Minimalist Corner Accents -->
+  <path d="M 60,100 L 100,100 M 60,100 L 60,140" fill="none" stroke="#7c5cfc" stroke-width="2" opacity="0.4"/>
+  <path d="M 740,100 L 700,100 M 740,100 L 740,140" fill="none" stroke="#7c5cfc" stroke-width="2" opacity="0.4"/>
+  <path d="M 60,700 L 100,700 M 60,700 L 60,660" fill="none" stroke="#7c5cfc" stroke-width="2" opacity="0.4"/>
+  <path d="M 740,700 L 700,700 M 740,700 L 740,660" fill="none" stroke="#7c5cfc" stroke-width="2" opacity="0.4"/>
+</svg>
