@@ -1,15 +1,27 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="100%" height="100%">
   <defs>
-    <!-- Background Gradient -->
+    <!-- تضمين الخطوط لضمان بقاء النص كما هو عند التحويل (PNG) -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500;800&amp;display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@500;800&amp;display=swap');
+    </style>
+
+    <!-- Background Gradient (Updated to match deep night sky) -->
     <radialGradient id="bgGrad" cx="50%" cy="50%" r="70%" fx="50%" fy="50%">
-      <stop offset="0%" stop-color="#13131a"/>
-      <stop offset="100%" stop-color="#0a0a0f"/>
+      <stop offset="0%" stop-color="#141124"/>
+      <stop offset="100%" stop-color="#08070d"/>
     </radialGradient>
 
     <!-- Primary Brand Gradient (Purple to Cyan) -->
     <linearGradient id="brandGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#7c5cfc"/>
       <stop offset="50%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#4ec9b0"/>
+    </linearGradient>
+
+    <!-- Name Text Gradient (Updated to match Arabic name colors) -->
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7c5cfc"/>
       <stop offset="100%" stop-color="#4ec9b0"/>
     </linearGradient>
 
@@ -94,18 +106,18 @@
 
   <!-- Typography Section -->
   <g transform="translate(400, 660)" text-anchor="middle">
-    <!-- Main Name -->
+    <!-- Main Name (Updated to use new gradient and fallback fonts) -->
     <text y="0" 
-          font-family="'Outfit', 'Cairo', sans-serif" 
+          font-family="Outfit, Cairo, Arial, Helvetica, sans-serif" 
           font-weight="800" 
           font-size="34" 
           letter-spacing="4" 
-          fill="#ffffff" 
+          fill="url(#textGrad)" 
           filter="url(#dropShadow)">AMR AL-MUKARDI</text>
     
-    <!-- Subtitle / Title -->
+    <!-- Subtitle / Title (Updated to use fallback fonts) -->
     <text y="36" 
-          font-family="'Outfit', 'Cairo', sans-serif" 
+          font-family="Outfit, Cairo, Arial, Helvetica, sans-serif" 
           font-weight="500" 
           font-size="14" 
           letter-spacing="6" 
