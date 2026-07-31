@@ -15,7 +15,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&family=Outfit:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 
     <!-- Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com">
+    </script>
     <script>
         tailwind.config = {
             darkMode: 'class',
@@ -48,7 +49,8 @@
     </script>
 
     <!-- Lucide Icons -->
-    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://unpkg.com/lucide@latest">
+    </script>
 
     <style>
         /* Core Styling */
@@ -219,7 +221,7 @@
             border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
             animation: morph 8s ease-in-out infinite;
             /* تم استبدال الـ border بـ padding وخلفية متدرجة */
-            padding: 4px; 
+            padding: 4px;
             background: linear-gradient(135deg, #7c5cfc, #4ec9b0);
             box-shadow: 0 0 40px rgba(124, 92, 252, 0.2);
         }
@@ -1073,19 +1075,18 @@
             const el = document.getElementById('typewriter');
             el.innerHTML = '';
 
+            // ⭐ تم استبدال المسميات الوظيفية بالقائمة الجديدة
             const wordsAr = [
-                "مهندس واجهات أمامية.",
                 "مطور ويب إبداعي.",
-                "مصمم تجربة مستخدم.",
-                "مدرس خاص.",
-                "مطور محتوى تعليمي تفاعلي."
+                "مدرس لغة إنجليزية.",
+                "مصمم تجارب تعليمية.",
+                "مبرمج."
             ];
             const wordsEn = [
-                "Front-End Engineer.",
                 "Creative Web Developer.",
-                "UI/UX Designer.",
-                "Private Tutor.",
-                "Interactive Educational Content Developer."
+                "English Teacher.",
+                "Educational Experience Designer.",
+                "Programmer."
             ];
             const words = currentLang === 'ar' ? wordsAr : wordsEn;
 
@@ -1104,7 +1105,8 @@
                     charIndex++;
                 }
 
-                let speed = isDeleting ? 40 : 100;
+                // ⭐ سرعة الكتابة = سرعة المسح (تم تعيينهما إلى 70)
+                let speed = isDeleting ? 70 : 70;
 
                 if (!isDeleting && charIndex === currentWord.length) {
                     speed = 2000;
